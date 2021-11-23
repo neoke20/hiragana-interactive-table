@@ -1,3 +1,4 @@
+/* For the hiragana chart */
 .hiragana-card {
   position: relative;
   background-color: #e64b3b;
@@ -30,4 +31,8 @@
 }
 .fa-pencil-alt:hover {
   background-color: rgb(29, 28, 28);
+}
+/* For the hiragana stroke order */
+.hiragana-stroke {
+  height: 350px;
 }
