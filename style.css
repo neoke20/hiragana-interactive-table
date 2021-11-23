@@ -35,4 +35,12 @@
 /* For the hiragana stroke order */
 .hiragana-stroke {
   height: 350px;
+  background-color: #e64b3b;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+@media (max-width: 900px) {
+  .hiragana-stroke {
+    height: 250px;
+  }
 }
