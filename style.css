@@ -1,0 +1,7 @@
+.hiragana-column a {
+  font-size: 26px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px 4px;
+}
