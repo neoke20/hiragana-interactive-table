@@ -7,10 +7,10 @@
   margin: 4px 4px 24px 4px;
   color: white;
   font-size: 26px;
-  cursor: pointer;
 }
-.hiragana-card:hover {
-  background-color: #cf4333;
+.hiragana-card a:hover {
+  font-weight: bold;
+  cursor: pointer;
 }
 .hiragana-column .fa-volume-up {
   position: absolute;

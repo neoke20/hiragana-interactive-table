@@ -17,12 +17,12 @@
     <div class="d-flex hiragana-table">
       <div class="hiragana-column d-flex flex-column">
         <div class="hiragana-card">
-          <a>あ</a>
+          <a id="a">あ</a>
           <i class="fas fa-volume-up"></i>
           <a href="hiragana/a.html"><i class="fas fa-pencil-alt"></i></a>
         </div>
         <div class="hiragana-card">
-          <a>い</a>
+          <a id="i">い</a>
           <i class="fas fa-volume-up"></i>
           <a href="hiragana/i.html"><i class="fas fa-pencil-alt"></i></a>
         </div>
@@ -398,5 +398,8 @@
     </div>
   </div>
   <!-- End of Hiragana table displays only on LG -->
+  <audio data-id="a" src="sounds/boom.wav"></audio>
+  <audio data-id="i" src="sounds/clap.wav"></audio>
+  <script src="js/hiragana-sounds.js"></script>
 </body>
 </html>
