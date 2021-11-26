@@ -1,7 +1,12 @@
+/* Variables */
+:root {
+  --base: #e64b3b;
+}
+
 /* For the hiragana chart */
 .hiragana-card {
   position: relative;
-  background-color: #e64b3b;
+  background-color: var(--base);
   border-radius: 12px;
   padding: 16px;
   margin: 4px 4px 24px 4px;
