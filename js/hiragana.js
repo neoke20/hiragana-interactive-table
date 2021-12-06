@@ -21,7 +21,7 @@ urls.forEach(function(item) {
 function getSvgId() {
   const svgID = localStorage.getItem('svgID');
   // adds the svg name to the src
-  document.querySelector('.hiragana-stroke').src=`../svgsKana/${svgID}.svg`;
+  document.querySelector('.hiragana-stroke').src=`svgsKana/${svgID}.svg`;
   // Sets the page titke to the right hiragana reading
   document.title = `Hiragana: ${localStorage.getItem('reading')}`;
 }
