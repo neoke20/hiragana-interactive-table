@@ -8,12 +8,20 @@ Array.from(elements).forEach(function(element) {
   })
 });
 
-svg = ""
+
 
 const urls = document.querySelectorAll(".pen");
 urls.forEach(function(item) {
   item.addEventListener('click', function() {
-    svg = this.dataset.svgid;
+    let svg = localStorage.setItem('svgID', this.dataset.svgid);
     console.log(svg);
   });
 });
+
+localStorage.setItem('svgID', svg);
+
+function getSvgId() {
+  let svgID = localStorage.getItem('svgID');
+  console.log(`${svgID}`);
+  document.querySelector('.hiragana-stroke').src=`../svgsKana/${svgID}.svg`;
+}
