@@ -7,3 +7,13 @@ Array.from(elements).forEach(function(element) {
     audio.play();
   })
 });
+
+svg = ""
+
+const urls = document.querySelectorAll(".pen");
+urls.forEach(function(item) {
+  item.addEventListener('click', function() {
+    svg = this.dataset.svgid;
+    console.log(svg);
+  });
+});
