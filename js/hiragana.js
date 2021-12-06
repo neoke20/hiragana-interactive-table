@@ -8,20 +8,15 @@ Array.from(elements).forEach(function(element) {
   })
 });
 
-
-
 const urls = document.querySelectorAll(".pen");
 urls.forEach(function(item) {
   item.addEventListener('click', function() {
-    let svg = localStorage.setItem('svgID', this.dataset.svgid);
+    const svg = localStorage.setItem('svgID', this.dataset.svgid);
     console.log(svg);
   });
 });
 
-localStorage.setItem('svgID', svg);
-
 function getSvgId() {
-  let svgID = localStorage.getItem('svgID');
-  console.log(`${svgID}`);
+  const svgID = localStorage.getItem('svgID');
   document.querySelector('.hiragana-stroke').src=`../svgsKana/${svgID}.svg`;
 }
