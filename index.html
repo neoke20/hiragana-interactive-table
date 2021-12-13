@@ -799,16 +799,17 @@
     </div>
   </section>
   <!-- End of Katakana table -->
-
-  <!-- Toggle button -->
-  <button id="kana-toggle" type="button" class="btn btn-primary">Katakana</button>
-  <!-- End of Toggle button -->
-  <!-- Color Control -->
-  <div class="controls my-3 mx-2">
-    <label for="baseColor">Color control:</label>
-    <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
+  <div class="d-flex m-3">
+    <!-- Toggle button -->
+    <button id="kana-toggle" type="button">Switch to Katakana</button>
+    <!-- End of Toggle button -->
+    <!-- Color Control -->
+    <div class="d-flex controls my-3 mx-2">
+      <label for="baseColor" class="mx-1">Color control:</label>
+      <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
+    </div>
+    <!-- End of Color Control -->
   </div>
-  <!-- End of Color Control -->
 
   <audio data-id="a" src="sounds/a.mp3"></audio>
   <audio data-id="i" src="sounds/i.mp3"></audio>

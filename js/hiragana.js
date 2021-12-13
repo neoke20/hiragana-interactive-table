@@ -28,7 +28,7 @@ function getSvgId() {
 
 const switchButton = document.getElementById("kana-toggle");
 switchButton.addEventListener("click", function() {
-  switchButton.innerText == "Hiragana" ? switchButton.innerText = "Katakana" : switchButton.innerText = "Hiragana";
+  switchButton.innerText == "Switch to Hiragana" ? switchButton.innerText = "Switch to Katakana" : switchButton.innerText = "Switch to Hiragana";
   document.getElementById("hiragana").classList.toggle("d-none");
   document.getElementById("katakana").classList.toggle("d-none");
 })
