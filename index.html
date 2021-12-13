@@ -403,17 +403,11 @@
         </div>
       </div>
     </div>
-    <!-- Color Control -->
-    <div class="controls my-3 mx-2">
-      <label for="baseColor">Color control:</label>
-      <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
-    </div>
-    <!-- End of Color Control -->
   </section>
   <!-- End of Hiragana table -->
 
   <!-- Katakana table -->
-  <section id="katakana">
+  <section id="katakana" class="d-none">
     <div class="d-flex hiragana-table">
         <div class="column-grid">
         <div class="hiragana-column d-flex flex-column">
@@ -803,18 +797,18 @@
         </div>
       </div>
     </div>
-    <!-- Color Control -->
-    <div class="controls my-3 mx-2">
-      <label for="baseColor">Color control:</label>
-      <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
-    </div>
-    <!-- End of Color Control -->
   </section>
   <!-- End of Katakana table -->
 
   <!-- Toggle button -->
   <button id="kana-toggle" type="button" class="btn btn-primary">Katakana</button>
   <!-- End of Toggle button -->
+  <!-- Color Control -->
+  <div class="controls my-3 mx-2">
+    <label for="baseColor">Color control:</label>
+    <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
+  </div>
+  <!-- End of Color Control -->
 
   <audio data-id="a" src="sounds/a.mp3"></audio>
   <audio data-id="i" src="sounds/i.mp3"></audio>

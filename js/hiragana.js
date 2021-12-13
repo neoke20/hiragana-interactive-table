@@ -25,3 +25,10 @@ function getSvgId() {
   // Sets the page titke to the right hiragana reading
   document.title = `Hiragana: ${localStorage.getItem('reading')}`;
 }
+
+const switchButton = document.getElementById("kana-toggle");
+switchButton.addEventListener("click", function() {
+  switchButton.innerText == "Hiragana" ? switchButton.innerText = "Katakana" : switchButton.innerText = "Hiragana";
+  document.getElementById("hiragana").classList.toggle("d-none");
+  document.getElementById("katakana").classList.toggle("d-none");
+})
