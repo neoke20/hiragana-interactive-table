@@ -13,6 +13,7 @@
 </head>
 <body>
   <!-- Hiragana table -->
+  <section id="hiragana">
     <div class="d-flex hiragana-table">
         <div class="column-grid">
         <div class="hiragana-column d-flex flex-column">
@@ -408,9 +409,11 @@
       <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
     </div>
     <!-- End of Color Control -->
+  </section>
   <!-- End of Hiragana table -->
 
   <!-- Katakana table -->
+  <section id="katakana">
     <div class="d-flex hiragana-table">
         <div class="column-grid">
         <div class="hiragana-column d-flex flex-column">
@@ -806,9 +809,18 @@
       <input id="baseColor" type="color" name="baseColor" value="#e64b3b">
     </div>
     <!-- End of Color Control -->
+  </section>
   <!-- End of Katakana table -->
 
-
+  <!-- Toggle button -->
+  <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+      <span class="onoffswitch-inner"></span>
+      <span class="onoffswitch-switch"></span>
+    </label>
+  </div>
+  <!-- End of Toggle button -->
 
   <audio data-id="a" src="sounds/a.mp3"></audio>
   <audio data-id="i" src="sounds/i.mp3"></audio>
