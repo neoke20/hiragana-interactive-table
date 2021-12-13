@@ -84,3 +84,11 @@
     margin-bottom: 30px;
   }
 }
+/* Kana toggle button */
+#kana-toggle {
+  border-radius: 4px;
+  background-color: var(--baseColor);
+  color: white;
+  height: 40px;
+  align-self: center;
+}
